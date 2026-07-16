@@ -84,3 +84,20 @@ date: Thu Jul 16 12:57:46 PM UTC 2026
 ![](download.png)
 :::
 ::::
+
+---
+
+## Resources
+
+:::: {.columns}
+::: {.column width="50%"}
+### Reference Materials
+- [Industrial Dataset X002](https://github.com/Affif251043255/tugasan)
+- Control Chart Standards (ISO 7870)
+- Process Capability Guidelines
+:::
+
+::: {.column width="50%"}
+![](download.png)
+:::
+::::
