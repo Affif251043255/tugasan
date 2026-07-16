@@ -1,7 +1,8 @@
 ---
 title: Comprehensive Machine Analysis
 author: Affif251043255
-date: Thu Jul 16 12:42:24 PM UTC 2026
+date: Thu Jul 16 12:57:46 PM UTC 2026
+
  
 
 ---
@@ -46,6 +47,24 @@ date: Thu Jul 16 12:42:24 PM UTC 2026
 ::: {{.column width="50%"}}
 ### Capability (Specs: 48-52)
 <iframe data-src='media/plots/res_cap_m3.html' width='100%' height='400px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+## Resources & References
+
+:::: {.columns}
+::: {.column width="50%"}
+### Further Reading
+- [Project Repository](https://github.com/Affif251043255/tugasan)
+- Industrial Process Control Standards
+- @carnot1824
+:::
+
+::: {.column width="50%"}
+### Bibliography
+<div id="refs"></div>
 :::
 ::::
 
