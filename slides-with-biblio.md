@@ -1,51 +1,51 @@
 ---
-title: Machine Performance Analysis
+title: Comprehensive Machine Analysis
 author: Affif251043255
-date: Thu Jul 16 12:35:14 PM UTC 2026
+date: Thu Jul 16 12:42:24 PM UTC 2026
  
 
 ---
 
-:::: {.columns}
-::: {.column width="50%"}
-### Machine 1: Resistance Stability
-This chart monitors `PartResistance` for Machine 1.
+## Machine 1: Stability & Capability
 
-- **Variable:** PartResistance (Ohms)
-- **Control Limits:** $\pm 3\sigma$
+:::: {{.columns}}
+::: {{.column width="50%"}}
+### Stability (303K, 100kPa)
+<iframe data-src='media/plots/res_stable_m1.html' width='100%' height='400px' style='border:none;'></iframe>
 :::
-::: {.column width="50%"}
-<iframe data-src='media/plots/res_control_m1.html' width='100%' height='500px' style='border:none;'></iframe>
-:::
-::::
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Machine 2: Resistance Stability
-This chart monitors `PartResistance` for Machine 2.
-
-- **Variable:** PartResistance (Ohms)
-- **Control Limits:** $\pm 3\sigma$
-:::
-::: {.column width="50%"}
-<iframe data-src='media/plots/res_control_m2.html' width='100%' height='500px' style='border:none;'></iframe>
+::: {{.column width="50%"}}
+### Capability (Specs: 48-52)
+<iframe data-src='media/plots/res_cap_m1.html' width='100%' height='400px' style='border:none;'></iframe>
 :::
 ::::
 
 ---
 
-:::: {.columns}
-::: {.column width="50%"}
-### Machine 3: Resistance Stability
-This chart monitors `PartResistance` for Machine 3.
+## Machine 2: Stability & Capability
 
-- **Variable:** PartResistance (Ohms)
-- **Control Limits:** $\pm 3\sigma$
+:::: {{.columns}}
+::: {{.column width="50%"}}
+### Stability (338K, 200kPa)
+<iframe data-src='media/plots/res_stable_m2.html' width='100%' height='400px' style='border:none;'></iframe>
 :::
-::: {.column width="50%"}
-<iframe data-src='media/plots/res_control_m3.html' width='100%' height='500px' style='border:none;'></iframe>
+::: {{.column width="50%"}}
+### Capability (Specs: 48-52)
+<iframe data-src='media/plots/res_cap_m2.html' width='100%' height='400px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+## Machine 3: Stability & Capability
+
+:::: {{.columns}}
+::: {{.column width="50%"}}
+### Stability (373K, 300kPa)
+<iframe data-src='media/plots/res_stable_m3.html' width='100%' height='400px' style='border:none;'></iframe>
+:::
+::: {{.column width="50%"}}
+### Capability (Specs: 48-52)
+<iframe data-src='media/plots/res_cap_m3.html' width='100%' height='400px' style='border:none;'></iframe>
 :::
 ::::
 
