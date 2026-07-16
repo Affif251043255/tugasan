@@ -1,103 +1,50 @@
 ---
-title: Comprehensive Machine Analysis
+title: Machine Process Monitoring
 author: Affif251043255
-date: Thu Jul 16 12:57:46 PM UTC 2026
+date: Thu Jul 16 04:47:24 PM UTC 2026
 
- 
 
 ---
-
-## Machine 1: Stability & Capability
 
 :::: {{.columns}}
 ::: {{.column width="50%"}}
-### Stability (303K, 100kPa)
-<iframe data-src='media/plots/res_stable_m1.html' width='100%' height='400px' style='border:none;'></iframe>
+### Machine 1 Stability
+Monitoring `PartResistance` at **303 K** and **100 kPa**.
+
+- **Stability:** Evaluated using Individuals Control Chart.
+- **Limits:** $\pm 3\sigma$ calculated from process noise.
 :::
 ::: {{.column width="50%"}}
-### Capability (Specs: 48-52)
-<iframe data-src='media/plots/res_cap_m1.html' width='100%' height='400px' style='border:none;'></iframe>
+<iframe data-src='media/plots/res_stable_m1.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
 
 ---
-
-## Machine 2: Stability & Capability
 
 :::: {{.columns}}
 ::: {{.column width="50%"}}
-### Stability (338K, 200kPa)
-<iframe data-src='media/plots/res_stable_m2.html' width='100%' height='400px' style='border:none;'></iframe>
+### Machine 2 Stability
+Monitoring `PartResistance` at **338 K** and **200 kPa**.
+
+- **Stability:** Process stability under increased thermal load.
+- **Limits:** Process remains within statistical control.
 :::
 ::: {{.column width="50%"}}
-### Capability (Specs: 48-52)
-<iframe data-src='media/plots/res_cap_m2.html' width='100%' height='400px' style='border:none;'></iframe>
+<iframe data-src='media/plots/res_stable_m2.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
 
 ---
-
-## Machine 3: Stability & Capability
 
 :::: {{.columns}}
 ::: {{.column width="50%"}}
-### Stability (373K, 300kPa)
-<iframe data-src='media/plots/res_stable_m3.html' width='100%' height='400px' style='border:none;'></iframe>
+### Machine 3 Stability
+Monitoring `PartResistance` at **373 K** and **300 kPa**.
+
+- **Stability:** High pressure/temperature operating environment.
+- **Limits:** Detecting special cause variation in resistance.
 :::
 ::: {{.column width="50%"}}
-### Capability (Specs: 48-52)
-<iframe data-src='media/plots/res_cap_m3.html' width='100%' height='400px' style='border:none;'></iframe>
-:::
-::::
-
----
-
-## Resources & References
-
-:::: {.columns}
-::: {.column width="50%"}
-### Further Reading
-- [Project Repository](https://github.com/Affif251043255/tugasan)
-- Industrial Process Control Standards
-- @carnot1824
-:::
-
-::: {.column width="50%"}
-### Bibliography
-<div id="refs"></div>
-:::
-::::
-
----
-
-## Resources
-
-:::: {.columns}
-::: {.column width="50%"}
-### Reference Materials
-- [Industrial Dataset X002](https://github.com/Affif251043255/tugasan)
-- Control Chart Standards (ISO 7870)
-- Process Capability Guidelines
-:::
-
-::: {.column width="50%"}
-![](download.png)
-:::
-::::
-
----
-
-## Resources
-
-:::: {.columns}
-::: {.column width="50%"}
-### Reference Materials
-- [Industrial Dataset X002](https://github.com/Affif251043255/tugasan)
-- Control Chart Standards (ISO 7870)
-- Process Capability Guidelines
-:::
-
-::: {.column width="50%"}
-![](download.png)
+<iframe data-src='media/plots/res_stable_m3.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::

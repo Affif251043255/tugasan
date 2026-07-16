@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Affif251043255">
-  <title>Comprehensive Machine Analysis</title>
+  <title>Machine Process Monitoring</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -25,26 +25,7 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    /* CSS for citations */
-    div.csl-bib-body { }
-    div.csl-entry {
-      clear: both;
-    }
-    .hanging-indent div.csl-entry {
-      margin-left:2em;
-      text-indent:-2em;
-    }
-    div.csl-left-margin {
-      min-width:2em;
-      float:left;
-    }
-    div.csl-right-inline {
-      margin-left:2em;
-      padding-left:1em;
-    }
-    div.csl-indent {
-      margin-left: 2em;
-    }  </style>
+  </style>
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@4/dist/theme/serif.css" id="theme">
 </head>
 <body>
@@ -52,92 +33,61 @@
     <div class="slides">
 
 <section id="title-slide">
-  <h1 class="title">Comprehensive Machine Analysis</h1>
+  <h1 class="title">Machine Process Monitoring</h1>
   <p class="author">Affif251043255</p>
-  <p class="date">Thu Jul 16 12:57:46 PM UTC 2026</p>
+  <p class="date">Thu Jul 16 04:47:24 PM UTC 2026</p>
 </section>
 
-<section id="machine-1-stability-capability" class="slide level2">
-<h2>Machine 1: Stability &amp; Capability</h2>
-<div class="{{.columns}}">
-<p>::: {{.column width=“50%”}} ### Stability (303K, 100kPa)
-<iframe data-src='media/plots/res_stable_m1.html' width='100%' height='400px' style='border:none;'></iframe></p>
-</div>
-<p>::: {{.column width=“50%”}} ### Capability (Specs: 48-52)
-<iframe data-src='media/plots/res_cap_m1.html' width='100%' height='400px' style='border:none;'></iframe>
-::: ::::</p>
-</section>
-<section id="machine-2-stability-capability" class="slide level2">
-<h2>Machine 2: Stability &amp; Capability</h2>
-<div class="{{.columns}}">
-<p>::: {{.column width=“50%”}} ### Stability (338K, 200kPa)
-<iframe data-src='media/plots/res_stable_m2.html' width='100%' height='400px' style='border:none;'></iframe></p>
-</div>
-<p>::: {{.column width=“50%”}} ### Capability (Specs: 48-52)
-<iframe data-src='media/plots/res_cap_m2.html' width='100%' height='400px' style='border:none;'></iframe>
-::: ::::</p>
-</section>
-<section id="machine-3-stability-capability" class="slide level2">
-<h2>Machine 3: Stability &amp; Capability</h2>
-<div class="{{.columns}}">
-<p>::: {{.column width=“50%”}} ### Stability (373K, 300kPa)
-<iframe data-src='media/plots/res_stable_m3.html' width='100%' height='400px' style='border:none;'></iframe></p>
-</div>
-<p>::: {{.column width=“50%”}} ### Capability (Specs: 48-52)
-<iframe data-src='media/plots/res_cap_m3.html' width='100%' height='400px' style='border:none;'></iframe>
-::: ::::</p>
-</section>
-<section id="resources-references" class="slide level2">
-<h2>Resources &amp; References</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="further-reading">Further Reading</h3>
-<ul>
-<li><a href="https://github.com/Affif251043255/tugasan">Project
-Repository</a></li>
-<li>Industrial Process Control Standards</li>
-<li><span class="citation"
-data-cites="carnot1824">@carnot1824</span></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<h3 id="bibliography">Bibliography</h3>
-<div id="refs" role="list">
+<section class="slide level6">
 
-</div>
-</div>
-</div>
-</section>
-<section id="resources" class="slide level2">
-<h2>Resources</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="reference-materials">Reference Materials</h3>
+<div class="{{.columns}}">
+<p>::: {{.column width=“50%”}} ### Machine 1 Stability Monitoring
+<code>PartResistance</code> at <strong>303 K</strong> and <strong>100
+kPa</strong>.</p>
 <ul>
-<li><a href="https://github.com/Affif251043255/tugasan">Industrial
-Dataset X002</a></li>
-<li>Control Chart Standards (ISO 7870)</li>
-<li>Process Capability Guidelines</li>
+<li><strong>Stability:</strong> Evaluated using Individuals Control
+Chart.</li>
+<li><strong>Limits:</strong> <span class="math inline">\(\pm
+3\sigma\)</span> calculated from process noise.</li>
 </ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="download.png" /></p>
 </div>
-</div>
+<p>::: {{.column width=“50%”}}
+<iframe data-src='media/plots/res_stable_m1.html' width='100%' height='500px' style='border:none;'></iframe>
+::: ::::</p>
 </section>
-<section id="resources-1" class="slide level2">
-<h2>Resources</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="reference-materials-1">Reference Materials</h3>
+<section class="slide level6">
+
+<div class="{{.columns}}">
+<p>::: {{.column width=“50%”}} ### Machine 2 Stability Monitoring
+<code>PartResistance</code> at <strong>338 K</strong> and <strong>200
+kPa</strong>.</p>
 <ul>
-<li><a href="https://github.com/Affif251043255/tugasan">Industrial
-Dataset X002</a></li>
-<li>Control Chart Standards (ISO 7870)</li>
-<li>Process Capability Guidelines</li>
+<li><strong>Stability:</strong> Process stability under increased
+thermal load.</li>
+<li><strong>Limits:</strong> Process remains within statistical
+control.</li>
 </ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="download.png" /></p>
 </div>
+<p>::: {{.column width=“50%”}}
+<iframe data-src='media/plots/res_stable_m2.html' width='100%' height='500px' style='border:none;'></iframe>
+::: ::::</p>
+</section>
+<section class="slide level6">
+
+<div class="{{.columns}}">
+<p>::: {{.column width=“50%”}} ### Machine 3 Stability Monitoring
+<code>PartResistance</code> at <strong>373 K</strong> and <strong>300
+kPa</strong>.</p>
+<ul>
+<li><strong>Stability:</strong> High pressure/temperature operating
+environment.</li>
+<li><strong>Limits:</strong> Detecting special cause variation in
+resistance.</li>
+</ul>
 </div>
+<p>::: {{.column width=“50%”}}
+<iframe data-src='media/plots/res_stable_m3.html' width='100%' height='500px' style='border:none;'></iframe>
+::: ::::</p>
 </section>
     </div>
   </div>
