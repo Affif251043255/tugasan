@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title>slides-with-biblio</title>
+  <meta name="author" content="Affif251043255">
+  <title>Machine Performance Analysis</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -557,95 +558,26 @@
   <div class="reveal">
     <div class="slides">
 
-
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="machine-3-part-resistance">Machine 3: Part Resistance</h3>
-<p><strong>Settings:</strong> 373 K, 300 kPa</p>
-<p>This control chart analyzes the individual measurements for
-<code>PartResistance</code>.</p>
-<p>Key Parameters: - <strong>Variable:</strong> PartResistance (Ohms) -
-<strong>Control Limits:</strong> <span class="math inline">\(\pm
-3\sigma\)</span></p>
-<p>If the points remain within the dashed red lines, the process
-variation is considered stable.</p>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/control_m3_t373_p300.html" width="100%" height="500px" style="border:none;">
-</iframe>
-</div>
-</div>
+<section id="title-slide">
+  <h1 class="title">Machine Performance Analysis</h1>
+  <p class="author">Affif251043255</p>
+  <p class="date">Thu Jul 16 12:35:14 PM UTC 2026</p>
 </section>
+
 <section class="slide level1">
 
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="machine-1-distribution-analysis">Machine 1: Distribution
-Analysis</h3>
-<p>This histogram shows the frequency distribution of
-<code>PartLength</code> for Machine 1.</p>
-<p>Key Insights: - <strong>Center:</strong> The average measurement
-value. - <strong>Spread:</strong> The variation in part production. -
-<strong>Shape:</strong> Checks for normality or skewness in the
-process.</p>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/hist_m1.html" width="100%" height="500px" style="border:none;">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="machine-2-process-capability">Machine 2: Process Capability</h3>
-<p>Evaluation of Machine 2’s ability to meet specifications (<span
-class="math inline">\(48mm - 52mm\)</span>).</p>
-<p><strong>Capability Metrics:</strong> - <strong>Cp</strong>: Potential
-process capability. - <strong>Cpk</strong>: Actual capability (accounts
-for centering).</p>
-<p>Machine 2 typically demonstrates higher stability and centering
-compared to Machine 1.</p>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/capability_m2.html" width="100%" height="500px" style="border:none;">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="machine-2-process-stability">Machine 2: Process Stability</h3>
-<p>This control chart monitors the <code>PartLength</code> for all
-Machine 2 observations to ensure the process remains in statistical
-control.</p>
-<p><strong>Analysis:</strong> - <strong>Stability:</strong> Checks if
-measurements stay within the control limits (<span
-class="math inline">\(\pm 3\sigma\)</span>). - <strong>Center
-Line:</strong> Represents the process average. - <strong>Control
-Limits:</strong> Define the boundaries of natural process variation.</p>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/control_m2_all.html" width="100%" height="500px" style="border:none;">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="machine-2-process-stability-1">Machine 2: Process Stability</h3>
-<p>Individual control chart for <code>PartLength</code> across all
-observations for Machine 2.</p>
+<h3 id="machine-1-resistance-stability">Machine 1: Resistance
+Stability</h3>
+<p>This chart monitors <code>PartResistance</code> for Machine 1.</p>
 <ul>
-<li><strong>Stability:</strong> Process shows consistent performance
-within <span class="math inline">\(\pm 3\sigma\)</span>.</li>
-<li><strong>Center:</strong> Closely aligned with the target.</li>
+<li><strong>Variable:</strong> PartResistance (Ohms)</li>
+<li><strong>Control Limits:</strong> <span class="math inline">\(\pm
+3\sigma\)</span></li>
 </ul>
 </div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/control_m2.html" width="100%" height="500px" style="border:none;">
+<iframe data-src="media/plots/res_control_m1.html" width="100%" height="500px" style="border:none;">
 </iframe>
 </div>
 </div>
@@ -654,15 +586,34 @@ within <span class="math inline">\(\pm 3\sigma\)</span>.</li>
 
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="machine-2-process-capability-1">Machine 2: Process
-Capability</h3>
-<p>Capability analysis with limits set at [48mm, 52mm].</p>
+<h3 id="machine-2-resistance-stability">Machine 2: Resistance
+Stability</h3>
+<p>This chart monitors <code>PartResistance</code> for Machine 2.</p>
 <ul>
-<li><strong>Cpk:</strong> Significant improvement over Machine 1.</li>
-<li><strong>Yield:</strong> High probability of conforming parts.</li>
+<li><strong>Variable:</strong> PartResistance (Ohms)</li>
+<li><strong>Control Limits:</strong> <span class="math inline">\(\pm
+3\sigma\)</span></li>
 </ul>
 </div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/capability_m2.html" width="100%" height="500px" style="border:none;">
+<iframe data-src="media/plots/res_control_m2.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="machine-3-resistance-stability">Machine 3: Resistance
+Stability</h3>
+<p>This chart monitors <code>PartResistance</code> for Machine 3.</p>
+<ul>
+<li><strong>Variable:</strong> PartResistance (Ohms)</li>
+<li><strong>Control Limits:</strong> <span class="math inline">\(\pm
+3\sigma\)</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/res_control_m3.html" width="100%" height="500px" style="border:none;">
 </iframe>
 </div>
 </div>
