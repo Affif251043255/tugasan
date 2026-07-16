@@ -27,5 +27,29 @@ If the points remain within the dashed red lines, the process variation is consi
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 1: Distribution Analysis
+
+This histogram shows the frequency distribution of `PartLength` for Machine 1.
+
+Key Insights:
+- **Center:** The average measurement value.
+- **Spread:** The variation in part production.
+- **Shape:** Checks for normality or skewness in the process.
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/hist_m1.html'
+  width='100%'
+  height='500px'
+  style='border:none;'>
+</iframe>
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
