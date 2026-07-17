@@ -1,50 +1,66 @@
 ---
-title: Machine Process Monitoring
+title: Machine Performance Analysis
 author: Affif251043255
 date: Thu Jul 16 04:47:24 PM UTC 2026
 
-
 ---
 
-:::: {{.columns}}
-::: {{.column width="50%"}}
-### Machine 1 Stability
-Monitoring `PartResistance` at **303 K** and **100 kPa**.
+## Machine 1 Analysis (303K, 100kPa)
 
-- **Stability:** Evaluated using Individuals Control Chart.
-- **Limits:** $\pm 3\sigma$ calculated from process noise.
+:::: {.columns}
+::: {.column width="50%"}
+### Part Length
+<iframe data-src='media/plots/m1_partlength.html' width='100%' height='400px' style='border:none;'></iframe>
 :::
-::: {{.column width="50%"}}
-<iframe data-src='media/plots/res_stable_m1.html' width='100%' height='500px' style='border:none;'></iframe>
+::: {.column width="50%"}
+### Part Resistance
+<iframe data-src='media/plots/m1_partresistance.html' width='100%' height='400px' style='border:none;'></iframe>
 :::
 ::::
 
 ---
 
-:::: {{.columns}}
-::: {{.column width="50%"}}
-### Machine 2 Stability
-Monitoring `PartResistance` at **338 K** and **200 kPa**.
+## Machine 2 Analysis (338K, 200kPa)
 
-- **Stability:** Process stability under increased thermal load.
-- **Limits:** Process remains within statistical control.
+:::: {.columns}
+::: {.column width="50%"}
+### Part Length
+<iframe data-src='media/plots/m2_partlength.html' width='100%' height='400px' style='border:none;'></iframe>
 :::
-::: {{.column width="50%"}}
-<iframe data-src='media/plots/res_stable_m2.html' width='100%' height='500px' style='border:none;'></iframe>
+::: {.column width="50%"}
+### Part Resistance
+<iframe data-src='media/plots/m2_partresistance.html' width='100%' height='400px' style='border:none;'></iframe>
 :::
 ::::
 
 ---
 
-:::: {{.columns}}
-::: {{.column width="50%"}}
-### Machine 3 Stability
-Monitoring `PartResistance` at **373 K** and **300 kPa**.
+## Machine 3 Analysis (373K, 300kPa)
 
-- **Stability:** High pressure/temperature operating environment.
-- **Limits:** Detecting special cause variation in resistance.
+:::: {.columns}
+::: {.column width="50%"}
+### Part Length
+<iframe data-src='media/plots/m3_partlength.html' width='100%' height='400px' style='border:none;'></iframe>
 :::
-::: {{.column width="50%"}}
-<iframe data-src='media/plots/res_stable_m3.html' width='100%' height='500px' style='border:none;'></iframe>
+::: {.column width="50%"}
+### Part Resistance
+<iframe data-src='media/plots/m3_partresistance.html' width='100%' height='400px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+## Resources
+
+:::: {.columns}
+::: {.column width="50%"}
+### Technical References
+- [Industrial Dataset X002](https://github.com/Affif251043255/tugasan)
+- Control Chart Standards (ISO 7870)
+- Process Capability Guidelines
+- Energy conservation [@carnot1824]
+:::
+::: {.column width="50%"}
+![](media/pics/logo1.png)
 :::
 ::::
